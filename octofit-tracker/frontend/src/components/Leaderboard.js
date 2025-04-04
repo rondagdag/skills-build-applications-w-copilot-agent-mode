@@ -12,7 +12,7 @@ function Leaderboard() {
 
   return (
     <div>
-      <h1>Leaderboard</h1>
+      <h1 className="component-heading">Leaderboard</h1>
       <table>
         <thead>
           <tr>

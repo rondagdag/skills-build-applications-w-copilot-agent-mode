@@ -12,7 +12,7 @@ function Activities() {
 
   return (
     <div>
-      <h1>Activities</h1>
+      <h1 className="component-heading">Activities</h1>
       <ul>
         {activities.map(activity => (
           <li key={activity._id}>{activity.activity_type} - {activity.duration}</li>

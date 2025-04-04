@@ -12,7 +12,7 @@ function Users() {
 
   return (
     <div>
-      <h1>Users</h1>
+      <h1 className="component-heading">Users</h1>
       <ul>
         {users.map(user => (
           <li key={user._id}>{user.username} - {user.email}</li>

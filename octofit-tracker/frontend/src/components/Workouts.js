@@ -12,7 +12,7 @@ function Workouts() {
 
   return (
     <div>
-      <h1>Workouts</h1>
+      <h1 className="component-heading">Workouts</h1>
       <ul>
         {workouts.map(workout => (
           <li key={workout._id}>{workout.name} - {workout.description}</li>

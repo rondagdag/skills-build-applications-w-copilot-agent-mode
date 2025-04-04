@@ -12,7 +12,7 @@ function Teams() {
 
   return (
     <div>
-      <h1>Teams</h1>
+      <h1 className="component-heading">Teams</h1>
       <ul>
         {teams.map(team => (
           <li key={team._id}>{team.name}</li>

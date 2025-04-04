@@ -5,6 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Set the base URL for the backend API
+const API_BASE_URL = 'http://localhost:8000';
+
+export default API_BASE_URL;
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
