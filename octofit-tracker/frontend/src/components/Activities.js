@@ -4,7 +4,7 @@ function Activities() {
   const [activities, setActivities] = useState([]);
 
   useEffect(() => {
-    fetch('http://supreme-waffle-8000.app.github.dev/api/activities/')
+    fetch('https://supreme-waffle-9jgrg7675xcpqrr-8000.app.github.dev/api/activities/')
       .then(response => response.json())
       .then(data => setActivities(data))
       .catch(error => console.error('Error fetching activities:', error));

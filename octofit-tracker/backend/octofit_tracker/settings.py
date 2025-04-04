@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-vnn_rtnw4!*(r_rf*56wwb76#qd1o(=iqa+ynrb$lgi#ul)ie&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'supreme-waffle-8000.app.github.dev']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'supreme-waffle-9jgrg7675xcpqrr-8000.app.github.dev']
 
 
 # Application definition

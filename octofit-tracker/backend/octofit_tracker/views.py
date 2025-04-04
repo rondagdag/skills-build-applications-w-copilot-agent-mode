@@ -26,7 +26,7 @@ class WorkoutViewSet(viewsets.ModelViewSet):
 
 @api_view(['GET'])
 def api_root(request, format=None):
-    base_url = 'https://supreme-waffle-8000.app.github.dev/'
+    base_url = 'https://supreme-waffle-9jgrg7675xcpqrr-8000.app.github.dev/'
     return Response({
         'users': base_url + 'api/users/?format=api',
         'teams': base_url + 'api/teams/?format=api',
